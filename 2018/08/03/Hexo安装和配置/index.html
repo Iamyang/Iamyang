@@ -14,7 +14,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="">
+<html class="theme-next pisces use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -84,7 +84,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Pisces',
     version: '6.3.0',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: false,
@@ -109,12 +109,13 @@
 
 
   <meta name="description" content="Hexo安装和配置安装Hexo：先cd到hexo软件存放目录，执行$ npm install hexo-cli -g 博客目录初始化： 在本地创建博客文件夹Blog，命令行转到Blog目录，执行hexo init，会生成以下文件：  执行npm install，会更新node_modules文件夹，但还不清楚这里有什么作用。有的教程上面没有这一步。（参考教程1 ，教程2） 执行hexo g，会生成">
+<meta name="keywords" content="Hexo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="Hexo notes">
 <meta property="og:url" content="http://yoursite.com/2018/08/03/Hexo安装和配置/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="Lefaith">
 <meta property="og:description" content="Hexo安装和配置安装Hexo：先cd到hexo软件存放目录，执行$ npm install hexo-cli -g 博客目录初始化： 在本地创建博客文件夹Blog，命令行转到Blog目录，执行hexo init，会生成以下文件：  执行npm install，会更新node_modules文件夹，但还不清楚这里有什么作用。有的教程上面没有这一步。（参考教程1 ，教程2） 执行hexo g，会生成">
-<meta property="og:locale" content="default">
+<meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="e:/YANGLIU/Blog/source/post%20images/1533263706078.png">
 <meta property="og:image" content="e:/YANGLIU/Blog/source/post%20images/1533263995629.png">
 <meta property="og:image" content="e:/YANGLIU/Blog/source/post%20images/1533266670746.png">
@@ -123,9 +124,9 @@
 <meta property="og:image" content="e:/YANGLIU/Blog/source/post%20images/1533279225569.png">
 <meta property="og:image" content="e:/YANGLIU/Blog/source/post%20images/1533265874623.png">
 <meta property="og:image" content="e:/YANGLIU/Blog/source/post%20images/1533279449295.png">
-<meta property="og:updated_time" content="2018-08-03T07:37:18.466Z">
+<meta property="og:updated_time" content="2018-08-03T08:10:58.512Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="Hexo notes">
 <meta name="twitter:description" content="Hexo安装和配置安装Hexo：先cd到hexo软件存放目录，执行$ npm install hexo-cli -g 博客目录初始化： 在本地创建博客文件夹Blog，命令行转到Blog目录，执行hexo init，会生成以下文件：  执行npm install，会更新node_modules文件夹，但还不清楚这里有什么作用。有的教程上面没有这一步。（参考教程1 ，教程2） 执行hexo g，会生成">
 <meta name="twitter:image" content="e:/YANGLIU/Blog/source/post%20images/1533263706078.png">
 
@@ -144,7 +145,7 @@
   };
 </script>
 
-  <title> | Hexo</title>
+  <title>Hexo notes | Lefaith</title>
   
 
 
@@ -184,7 +185,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
   
@@ -202,10 +203,14 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hexo</span>
+        <span class="site-title">Lefaith</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+    
+      
+        <p class="site-subtitle">If you had only six months left to live, what would you do?</p>
+      
     
   </div>
 
@@ -236,18 +241,39 @@
         
         
           
+          <li class="menu-item menu-item-tags">
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />Tags</a>
+  </li>
+        
+        
+        
+          
           <li class="menu-item menu-item-archives">
     <a href="/archives/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archiv</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+    <a href="/about/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-user"></i> <br />Über</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-commonweal">
+    <a href="/404/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />Commonweal 404</a>
   </li>
 
       
       
     </ul>
   
-
-  
-    
 
   
 
@@ -269,6 +295,9 @@
     <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">
+          
+            
+
           
           <div id="content" class="content">
             
@@ -292,13 +321,13 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/03/Hexo安装和配置/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Lefaith">
+      <meta itemprop="description" content="Technology married with liberal arts and humanities">
+      <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="Lefaith">
     </span>
 
     
@@ -306,7 +335,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">Hexo notes
               
             
           </h1>
@@ -331,7 +360,7 @@
                 
               
 
-              <time title="Post created: 2018-08-03 15:33:18 / Updated at: 15:37:18" itemprop="dateCreated datePublished" datetime="2018-08-03T15:33:18+08:00">2018-08-03</time>
+              <time title="Post created: 2018-08-03 15:33:18 / Updated at: 16:10:58" itemprop="dateCreated datePublished" datetime="2018-08-03T15:33:18+08:00">2018-08-03</time>
             
 
             
@@ -387,10 +416,11 @@
 <p><img src="E:\YANGLIU\Blog\source\post images/1533266670746.png" alt="1533266670746"></p>
 <p>其中一个原因是如果 YAML 字符串中包含冒号（:）的话，需要引号。 （参看<a href="https://hexo.io/zh-cn/docs/troubleshooting.html" target="_blank" rel="noopener">Hexo官方文档</a>）</p>
 <p>另一个因素是，YAML前面不应该有空格。删掉空格后，报错便消失了。</p>
-<p>内容上传：在本地克隆Github仓库xxx.github.io ，此时仓库为空（Github配置可参考教程）。接着把public 文件夹里面的内容复制到该仓库下，执行</p>
+<p>内容上传：在本地克隆Github仓库xxx.github.io ，此时仓库为空（Github配置可参考教程）。接着把public 文件夹里面的内容复制到该仓库下<code>copy public Iamyang.github.io</code>，执行</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add.   # .表示全部</span><br><span class="line">git commit -m &apos;new commit&apos;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure>
 <p>此时已成功生成博客页面啦！在浏览器上输入xxx.github.io，可看到默认页面：</p>
 <p><img src="E:\YANGLIU\Blog\source\post images/1533265530764.png" alt="1533265530764"></p>
+<p>或者创建一个脚本</p>
 <h2 id="博客更新"><a href="#博客更新" class="headerlink" title="博客更新"></a>博客更新</h2><p>更新博客：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo new test_my_site #新文章md</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 <p>类似于前面，把public里的文件复制到仓库里，推送即可。</p>
@@ -428,6 +458,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+          
+        </div>
       
 
       
@@ -505,8 +541,12 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">John Doe</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.jpg"
+                alt="Lefaith" />
+            
+              <p class="site-author-name" itemprop="name">Lefaith</p>
+              <p class="site-description motion-element" itemprop="description">Technology married with liberal arts and humanities</p>
           </div>
 
           
@@ -524,6 +564,19 @@
 
               
 
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">Tags</span>
+                  
+                </div>
               
             </nav>
           
@@ -580,7 +633,7 @@
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">Lefaith</span>
 
   
 
@@ -598,7 +651,7 @@
 
 
 
-  <div class="theme-info">Theme – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Muse</a> v6.3.0</div>
+  <div class="theme-info">Theme – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Pisces</a> v6.3.0</div>
 
 
 
@@ -690,6 +743,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.3.0"></script>
+
+
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=6.3.0"></script>
