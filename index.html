@@ -14,7 +14,7 @@
   
 
 
-<html class="theme-next mist use-motion" lang="">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -108,13 +108,16 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+  <meta name="description" content="Technology married with liberal arts and humanities">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lefaith">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="default">
+<meta property="og:site_name" content="Lefaith">
+<meta property="og:description" content="Technology married with liberal arts and humanities">
+<meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="Lefaith">
+<meta name="twitter:description" content="Technology married with liberal arts and humanities">
 
 
 
@@ -131,7 +134,7 @@
   };
 </script>
 
-  <title>Hexo</title>
+  <title>Lefaith</title>
   
 
 
@@ -171,7 +174,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
   
@@ -190,10 +193,14 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hexo</span>
+        <span class="site-title">Lefaith</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+    
+      
+        <p class="site-subtitle">If you had only six months left to live, what would you do?</p>
+      
     
   </div>
 
@@ -218,7 +225,15 @@
           
           <li class="menu-item menu-item-home menu-item-active">
     <a href="/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />Accueil</a>
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />Startseite</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />Tags</a>
   </li>
         
         
@@ -226,7 +241,23 @@
           
           <li class="menu-item menu-item-archives">
     <a href="/archives/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archives</a>
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archiv</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+    <a href="/about/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-user"></i> <br />Über</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-commonweal">
+    <a href="/404/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />Commonweal 404</a>
   </li>
 
       
@@ -280,13 +311,13 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/03/Hexo安装和配置/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Lefaith">
+      <meta itemprop="description" content="Technology married with liberal arts and humanities">
+      <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="Lefaith">
     </span>
 
     
@@ -297,7 +328,7 @@
           <h1 class="post-title" itemprop="name headline">
                 
                 <a class="post-title-link" href="/2018/08/03/Hexo安装和配置/" itemprop="url">
-                  Non titré
+                  Hexo notes
                 </a>
               
             
@@ -316,14 +347,14 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posté le</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
                 
               
 
-              <time title="Post created: 2018-08-03 15:33:18 / Updated at: 15:37:18" itemprop="dateCreated datePublished" datetime="2018-08-03T15:33:18+08:00">2018-08-03</time>
+              <time title="Post created: 2018-08-03 15:33:18 / Updated at: 16:10:58" itemprop="dateCreated datePublished" datetime="2018-08-03T15:33:18+08:00">2018-08-03</time>
             
 
             
@@ -381,10 +412,11 @@
 <p><img src="E:\YANGLIU\Blog\source\post images/1533266670746.png" alt="1533266670746"></p>
 <p>其中一个原因是如果 YAML 字符串中包含冒号（:）的话，需要引号。 （参看<a href="https://hexo.io/zh-cn/docs/troubleshooting.html" target="_blank" rel="noopener">Hexo官方文档</a>）</p>
 <p>另一个因素是，YAML前面不应该有空格。删掉空格后，报错便消失了。</p>
-<p>内容上传：在本地克隆Github仓库xxx.github.io ，此时仓库为空（Github配置可参考教程）。接着把public 文件夹里面的内容复制到该仓库下，执行</p>
+<p>内容上传：在本地克隆Github仓库xxx.github.io ，此时仓库为空（Github配置可参考教程）。接着把public 文件夹里面的内容复制到该仓库下<code>copy public Iamyang.github.io</code>，执行</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add.   # .表示全部</span><br><span class="line">git commit -m &apos;new commit&apos;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure>
 <p>此时已成功生成博客页面啦！在浏览器上输入xxx.github.io，可看到默认页面：</p>
 <p><img src="E:\YANGLIU\Blog\source\post images/1533265530764.png" alt="1533265530764"></p>
+<p>或者创建一个脚本</p>
 <h2 id="博客更新"><a href="#博客更新" class="headerlink" title="博客更新"></a>博客更新</h2><p>更新博客：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo new test_my_site #新文章md</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 <p>类似于前面，把public里的文件复制到仓库里，推送即可。</p>
@@ -461,13 +493,13 @@
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/03/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Lefaith">
+      <meta itemprop="description" content="Technology married with liberal arts and humanities">
+      <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="Lefaith">
     </span>
 
     
@@ -497,7 +529,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posté le</span>
+                <span class="post-meta-item-text">Veröffentlicht am</span>
               
 
               
@@ -619,8 +651,12 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">John Doe</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.jpg"
+                alt="Lefaith" />
+            
+              <p class="site-author-name" itemprop="name">Lefaith</p>
+              <p class="site-description motion-element" itemprop="description">Technology married with liberal arts and humanities</p>
           </div>
 
           
@@ -631,13 +667,26 @@
                   <a href="/archives/">
                 
                     <span class="site-state-item-count">2</span>
-                    <span class="site-state-item-name">articles</span>
+                    <span class="site-state-item-name">Artikel</span>
                   </a>
                 </div>
               
 
               
 
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">Tags</span>
+                  
+                </div>
               
             </nav>
           
@@ -678,7 +727,7 @@
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">Lefaith</span>
 
   
 
@@ -688,7 +737,7 @@
 
 
 
-  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> v3.7.1</div>
+  <div class="powered-by">Erstellt mit  <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> v3.7.1</div>
 
 
 
@@ -696,7 +745,7 @@
 
 
 
-  <div class="theme-info">Thème – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Mist</a> v6.3.0</div>
+  <div class="theme-info">Theme – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Mist</a> v6.3.0</div>
 
 
 
